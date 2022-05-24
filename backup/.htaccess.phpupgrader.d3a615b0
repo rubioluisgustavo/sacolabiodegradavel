@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+ # server windows usa esse comando
+ Options -Indexes -MultiViews
+ #
+ RewriteEngine On
+
+  RewriteRule ^Default.aspx/?$ index.html [NC,L]
+  RewriteRule ^produtos.aspx/?$ Produtos.html [NC,L]
+  RewriteRule ^sustentabilidade.aspx/?$ Sustentabilidade.html [NC,L]
+  RewriteRule ^faleconosco.aspx/?$ Faleconosco.html [NC,L]
+
+</IfModule>

@@ -1,0 +1,91 @@
+﻿*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tudo{
+    background-color: #FFF;
+}
+
+p{
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(/images/mar.jpg);
+}
+
+.quebra{
+    background-color: rgb(0, 102, 34);
+    color: white;
+    font-size: 20px;
+}
+
+
+.mid{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+}
+
+.topo{
+    background-color: white;
+    text-align: center;
+}
+
+.noticia-titulo{
+    text-align:center;
+    font-size: 20px;
+    background-color:white;
+}
+
+#menu-h{
+    background-color: rgb(0, 102, 34);
+    color: gray;
+    text-align: center;
+}
+
+#menu-h ul {
+    list-style: none;
+}
+
+#menu-h ul li {
+    display: inline-block;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+#menu-h ul li a:hover {
+    color: rgb(0, 255, 42);
+}
+
+.beneficios{
+    text-align: justify;
+}
+
+.footer{
+    background-color: rgb(0, 102, 34);
+    color: white;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.links:hover{
+    color: rgb(0, 153, 255);
+}
